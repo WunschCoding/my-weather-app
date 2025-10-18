@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input
+            class="input-search"
+            type="search"
+            placeholder="Enter a city.."
+            required
+          />
+          <input class="input-button" type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city">Paris</h1>
+            <p class="current-city-details">
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="current-city-temperature">
+            <span class="current-city-temperature-icon">☀️</span>
+            <span class="current-city-temperature-value">14</span>
+            <span class="current-city-temperature-unit">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://wunschcoding.at" target="_blank">Michaela Wunsch</a>
+          and is <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
